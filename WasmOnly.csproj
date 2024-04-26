@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WebAssembly">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	
+    <Configurations>Debug;Release;Debug_WASM;Release_WASM;</Configurations>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="SkiaSharp.NativeAssets.WebAssembly" Version="2.88.6" />
+    <PackageReference Include="SkiaSharp.Views.Blazor" Version="2.88.6" />
+  </ItemGroup>
+</Project>
